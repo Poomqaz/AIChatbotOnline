@@ -1,4 +1,4 @@
-import { updateSession } from '@/lib/middleware'
+import { updateSession } from '@/src/lib/middleware'
 import { type NextRequest } from 'next/server'
 
 export async function proxy(request: NextRequest) {
