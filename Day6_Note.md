@@ -1672,7 +1672,7 @@ export function NewChat() {
                     <span className="text-white font-bold text-2xl">AI</span>
                   </div>
                   <h1 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">
-                    Welcome to Genius AI
+                    Welcome to 2AI
                   </h1>
                   <p className="text-lg text-slate-600 dark:text-slate-400 mb-8">
                     ยินดีต้อนรับสู่ AI Chatbot ที่ขับเคลื่อนด้วย LangChain และ OpenAI
@@ -4517,7 +4517,7 @@ export function ChatSidebar({ display_name, email, userId }: ChatSidebarProps) {
           
           {/* App Name - ซ่อนเมื่อ sidebar collapsed */}
           <div className="text-md font-bold text-slate-900 dark:text-white tracking-tight group-data-[collapsible=icon]:hidden">
-            Genius AI
+            2AI
           </div>
         </div>
         
@@ -4705,13 +4705,13 @@ export function ChatSidebar({ display_name, email, userId }: ChatSidebarProps) {
                   Upgrade plan
                 </Button>
 
-                {/* Customize Genius AI Button */}
+                {/* Customize 2AI Button */}
                 <Button
                   variant="ghost"
                   className="w-full justify-start gap-3 h-10 text-left px-3"
                 >
                   <Settings className="h-4 w-4" />
-                  Customize Genius AI
+                  Customize 2AI
                 </Button>
 
                 {/* Settings Button */}
