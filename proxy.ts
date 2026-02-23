@@ -1,4 +1,4 @@
-import { updateSession } from '@/src/lib/middleware'
+import { updateSession } from '@/lib/middleware'
 import { type NextRequest } from 'next/server'
 
 export async function proxy(request: NextRequest) {
@@ -15,6 +15,6 @@ export const config = {
      * - images - .svg, .png, .jpg, .jpeg, .gif, .webp
      * Feel free to modify this pattern to include more paths.
      */
-    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
+    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$|).*)',
   ],
 }
